@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1690803808 "main.xdv" "main.pdf" "main" 1690803808 0
-  "main.xdv" 1690803808 51300 2d8ba086eed1c60445714290e6c00644 "xelatex"
+["xdvipdfmx"] 1690803887 "main.xdv" "main.pdf" "main" 1690803887 0
+  "main.xdv" 1690803887 51300 e9c51e5db662462d69c335dacc40ad03 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1690803807 "c:/Users/zhiyu/Documents/GitHub/Latex-Report/main.tex" "main.xdv" "main" 1690803808 0
+["xelatex"] 1690803886 "c:/Users/zhiyu/Documents/GitHub/Latex-Report/main.tex" "main.xdv" "main" 1690803887 0
   "Acknowledgements/Acknowledgements.tex" 1690620378 842 32fb39855564703ea1a7a77674eca414 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136743454 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmr12.tfm" 1256929440 12092 7b1546e2d096cfd5dcbd4049b0b1ec2e ""
@@ -116,14 +116,14 @@
   "Chapter4/4.2 Professional Ethics, Company Code of Conduct.tex" 1690197704 60 8a70bc0ee7826b8c4a7ed3c273231b33 ""
   "Conclusion/5.0 Conclusion.tex" 1690197761 123 d87525428e2ad630f8fe840978beb623 ""
   "CoverPage.pdf" 1690201489 281702 ffa329b068e3df093072b4efc16f3018 ""
-  "c:/Users/zhiyu/Documents/GitHub/Latex-Report/main.tex" 1690803804 2212 d2b68065efb7a078f1b0b1c271b842d9 ""
+  "c:/Users/zhiyu/Documents/GitHub/Latex-Report/main.tex" 1690803886 2212 d2b68065efb7a078f1b0b1c271b842d9 ""
   "images/344652.png" 1686489209 28041 4fbaf1c1a7d9e10a205f2c3e32f5f5e6 ""
   "images/Keysight Timeline.png" 1690708492 151051 eed08b01047bc95641511ff82f315972 ""
-  "main.aux" 1690803808 3742 8c227f7b8499e9c584416c81eb435ec9 "xelatex"
-  "main.out" 1690803808 4746 5a9e7f91dbebc7328b89f0a106d5046f "xelatex"
-  "main.tex" 1690803804 2212 d2b68065efb7a078f1b0b1c271b842d9 ""
-  "main.toc" 1690803808 1795 d19f1f073b6c510f43b660e103cc0c39 "xelatex"
-  "styles.sty" 1690708604 1219 9f380b93924d1c18ef482b5492e45ecc ""
+  "main.aux" 1690803887 3742 8c227f7b8499e9c584416c81eb435ec9 "xelatex"
+  "main.out" 1690803887 4746 5a9e7f91dbebc7328b89f0a106d5046f "xelatex"
+  "main.tex" 1690803886 2212 d2b68065efb7a078f1b0b1c271b842d9 ""
+  "main.toc" 1690803887 1795 d19f1f073b6c510f43b660e103cc0c39 "xelatex"
+  "styles.sty" 1690803881 1219 d5c45cf71226addf754ff286bb8049be ""
   (generated)
   "main.aux"
   "main.log"
