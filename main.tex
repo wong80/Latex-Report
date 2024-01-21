@@ -1,105 +1,31 @@
 \documentclass[12pt,a4paper]{article}
-
-
-%packages
-\usepackage{graphicx,amsmath,mathtools,styles}
-\usepackage{pdfpages}
-
-
-
-%opening
+\include{thesis.permeable}
 
 \begin{document}
 
-\includepdf[pages=-]{CoverPage.pdf}
 
-\pagebreak 
-\tableofcontents
-\pagebreak
-
-\pagebreak
-\input{Acknowledgements/Acknowledgements.tex}
-\pagebreak
-\section{Chapter 1: Organization, Team \& Individual}
-\input{Chapter1/1.1 Company Background.tex}
-\input{Chapter1/1.2 Organization Chart & Team Structure.tex}
-\input{Chapter1/1.3 Individual Responsibilities.tex}
-\section{Chapter 2:Internship Work Experience}
-\input{Chapter2/2.1 Details of Work Experience.tex}
-\input{Chapter2/2.2 Application of Engineering Knowledge.tex}
-\input{Chapter2/2.3 Achievements & Results.tex}
-\section{Chapter 3: Exposure Gained}
-\input{Chapter3/3.1 Exposure to Engineering, Software.tex}
-\input{Chapter3/3.2 Exposure to Envorinmental & Sustainability.tex}
-\input{Chapter3/3.3 Exposure to Project Management, Buisness & Finance.tex}
-\input{Chapter3/3.3 Exposure to Project Management, Buisness & Finance.tex}
-\section{Chapter 4: Working Environment}
-\input{Chapter4/4.1 Health & Safety, Corporate Social Responsibility.tex}
-\input{Chapter4/4.2 Professional Ethics, Company Code of Conduct.tex}
-\pagebreak
-\input{Conclusion/5.0 Conclusion.tex}
+% Enter the necessary information for title page here 
+\faculty{* Insert Faculty Name Here*}
+\department{* Insert Department Name Here*}
+\module{*Insert Module Name Here*}
+\coursework{*Insert Title Here*}
+\coursecode{*Insert Course Code Here*}
+\name{*Insert Name Here*}
+\studentID{*Insert Student ID Here*}
+\convenor{*Insert Module Convener Name Here*}
 
 
-\section{Task 6: Complete Radar Speed Detection System}
 
-% Table Format
-	\begin{table}[b]
+\maketitle
 
-		\caption{\label{tab1}Caption text goes here.}
-		
-		\centering
-		
-		\begin{tabular}{| c | c | c |}
-		
-		\hline
-		
-		Head 1 & \multicolumn{2}{c|}{Common Head}\\
-		
-		\hline
-		
-		Col 1 & Col 2 & Col 3 \\
-		
-		\hline Col 1 & Col 2 & Col 3 \\
-		
-		\hline Col 1 & Col 2 & Col 3 \\
-		
-		\hline
-		
-		\end{tabular}
-		
-		\end{table}
+\include{Content}
 
 
-		
-	\newpage
-% Image Format
-	\begin{figure}[t]
 
-	\centering\includegraphics{images/344652.png}
-	
-	\caption{\label{fig2}Caption text goes here.}
-	
-	\end{figure}
+\newpage
+\bibliography{library}
+\bibliographystyle{ieeetr}
 
 
-% List Format
-	\begin{enumerate}
-
-	\item First item
-	
-	\item Second item
-	
-	\item Third item
-	
-	\end{enumerate}
-
-	\begin {equation} 1+1=2
-	\end {equation}
-
-% % Bibliography Format
-
-% 	\bibliography{Bilbography}
-% 	\bibliographystyle{ieeetr}
-
+\include{appendix}
 \end{document}
-

@@ -1,58 +1,69 @@
-\usepackage{microtype,xcolor,float}
-\usepackage[hidelinks]{hyperref}
+%This file contains all the necessary style modifications to the document
 
-% Font Settings %
-
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{fontspec}
-\setmainfont{Verdana}
-
-% Margins
-\usepackage[a4paper,margin=1in,footskip=0.25in]{geometry}
-
-
-
-% Header & Footer Settings %
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\renewcommand{\headrulewidth}{0pt}
-\setlength{\headheight}{15pt}
-\lhead{}
-\rhead{}
-\rfoot{\thepage}
-\cfoot{}
-
-
-
-% Top Corner Image
-% \usepackage{tikz}
-% \usepackage{everypage}
-% \AddEverypageHook{
-% 	\tikz[remember picture,overlay] \node[anchor=north west,xshift =1mm,yshift=-1mm] at (current page.north west) {
-%     \includegraphics[width= 55mm, height=20mm]{images/UoN_Primary_Logo_CMYK.png}
-% };
-% }
-
-% Section Style
-\usepackage{sectsty}
-\sectionfont{\fontsize{14}{15}\selectfont \bfseries}
-\subsectionfont{\fontsize{14}{15}\selectfont\bfseries}
-
-% Line Spacing
-\usepackage[onehalfspacing]{setspace}
-% Spacing between caption & figure
-\usepackage[skip=5mm]{caption}
+% Vertical Spacing between math equations
+\setlength{\jot}{10pt}
 
 % Spacing between floats and text
 \setlength{\intextsep}{10mm}
 
-
 % Paragraph Spacing
-\usepackage{indentfirst}
 \setlength{\parindent}{3em}
 \setlength{\parskip}{0.5em}
 
 
+% Variable Declaration
+\def\faculty#1{\gdef\@faculty{#1}}
+\def\department#1{\gdef\@department{#1}}
+\def\module#1{\gdef\@module{#1}}
+\def\coursework#1{\gdef\@coursework{#1}}
+\def\coursecode#1{\gdef\@coursecode{#1}}
+\def\name#1{\gdef\@name{#1}}
+\def\studentID#1{\gdef\@studentID{#1}}
+\def\convenor#1{\gdef\@convenor{#1}}
 
 
+% Title Page Environment
+\def\maketitle{
+
+\begin{titlepage}
+
+    \begin{figure}[H]
+        
+    \centering
+    \includegraphics[width=0.75\textwidth]{UNM Logo.png}
+    \end{figure}
+    
+    \begin{center}
+        \vspace*{1cm}
+
+        \textbf{\LARGE{\bf\@faculty}}\\
+       
+        \vspace{0.75cm}
+        \textbf{\Large{\bf\@department}}\\
+            
+        \vspace{1.0cm}
+
+        \textbf{\Large{\@module}}\\
+
+        \vspace{0.5cm}
+        \textbf{\Large{\@coursework}}\\
+
+\vspace*{0.5cm}
+        \textbf{\large{Course Code: \@coursecode}}       \\
+\vspace*{1cm}
+
+\begin{flushleft}
+        \large{Student's Name}       : \@name\\
+        
+        Student's ID          : \@studentID\\
+        
+        Module Convenor: \@convenor
+
+\end{flushleft}
+
+
+            
+   \end{center}
+\end{titlepage}
+
+}
